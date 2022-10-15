@@ -4,7 +4,43 @@
     <meta charset="UTF-8">
     <title>library</title>
 </head>
+<script>
+    function jump() {
+        window.open("newbook.html");
+    }
+</script>
 <body>
-    <p>1123</p>
+    <p>图书馆存</p>
+    <table border="1" cellspacing="0" >
+        <tbody>
+        <tr>
+            <td>图片</td>
+            <td>名称</td>
+            <td>作者</td>
+            <td>出版社</td>
+            <td>出版日期</td>
+            <td>库存数量</td>
+        </tr>
+        <tr>
+            <td><img src="./img/byyl.jpeg" width="150" height="150"></td>
+            <td>编译原理</td>
+            <td>李文生</td>
+            <td>清华大学出版社</td>
+            <td>2016.10</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td><img src="./img/txyl.jpg" width="150" height="150"></td>
+            <td>通信原理</td>
+            <td>樊昌信</td>
+            <td>国防工业出版社</td>
+            <td>2020.1</td>
+            <td>666</td>
+        </tr>
+        </tbody>
+
+    </table>
+
+    <button onclick="jump()"> 我有新书 </button>
 </body>
 </html>
